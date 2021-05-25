@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+
+@font-face {
+		font-family: Roboto;
+		src: url("fonts/Roboto-Regular.ttf");
+		src: url("fonts/Roboto-Bold.ttf");
+	}
+
+	body {
+		font-family: Roboto, sans-serif;
+		font-size: 14px;
+		background: #F3F3F3;
+	}
+
+	h2 {
+		color: #6066FA;
+		padding-bottom: 22px;
+		pointer-events: none;
+	}
+
+	.container {
+		width: 240px;
+		height: 375px;
+		margin: 0 auto;
+		text-align: center;
+		display: grid;
+		margin-top: 120px;
+		background: #fff;
+		border-radius: 5px;
+		box-shadow: 0 0 5px #000;
+		max-width: 100%;
+	}
+
+	input, button {
+		margin-bottom: 35px;
+		align-items: center;
+		padding: 2px 0;
+		border-radius: 5px;
+		width: 200px;
+		height: 45.5px;
+	}
+
+	input {
+		border: 1px solid #000;
+		outline: none;
+		background: #F9F9F9;
+		text-indent: 6px;
+		box-shadow: 0 0 1px #000;
+	}
+
+	input:focus {
+		box-shadow: 0 0 8px blue;
+	}
+
+	button {
+		background: #6066FA;
+		border: none;
+		color: #fff;
+		font-weight: bold;
+	}
+
+	button:hover {
+		background: #7B81FF;
+	}
+
+	button:hover, a:hover {
+		cursor: pointer;
+	}
+
+	a {
+		text-decoration: none;
+		color: #6066FA;
+	}
+
+</style>
+<body>
+
+    <section>
+		<div class="container">
+			<form class="form">
+				<h2 class="title">Login</h2>
+				<input class="email" type="text" for="email" placeholder="E-mail">
+				<input class="pass" type="password" for="pass" placeholder="Password">
+				<button class="btn">Login</button>
+				<a class="forgot" href="#">Forgot Password?</a>
+			</form>
+		</div>
+	</section>
+
+</body>
+</html>
